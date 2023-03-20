@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Блок с комментариями</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Комментарии</h1>
+      <div class="comments">
+        <form class="comments__form">
+          <input
+            class="comments__form-name"
+            type="text"
+            id="name"
+            name="name"
+            required
+          />
+          <span class="error-message" data-for="name"></span>
+          <textarea
+            class="comments__form-body"
+            id="text"
+            name="text"
+            required
+          ></textarea>
+          <span class="error-message" data-for="text"></span>
+
+          <input class="comments__form-date"  type="date" id="date" name="date" />
+          <button class="comments__form-button" type="submit">
+            Отпавить
+          </button>
+        </form>
+        <ul class="comments__list"></ul>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

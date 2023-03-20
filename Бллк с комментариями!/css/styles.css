@@ -1,0 +1,70 @@
+@import url(../css/reset.css);
+.wrapper {
+  width: 1200px;
+  margin: 0 auto; }
+
+body {
+  background-color: #D9D9D9; }
+
+h1 {
+  margin-top: 85px;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 40px; }
+
+.comments {
+  width: 1000px;
+  height: 400px;
+  background-color: #F6F6F6;
+  margin: 0 auto;
+  border-radius: 25px; }
+
+.comments__form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 95px; }
+  .comments__form-name {
+    margin-top: 70px;
+    width: 235px;
+    height: 40px;
+    background-color: #D9D9D9;
+    margin-bottom: 20px; }
+  .comments__form-body {
+    width: 800px;
+    height: 125px;
+    background-color: #D9D9D9;
+    margin-bottom: 20px; }
+  .comments__form-date {
+    width: 235px;
+    height: 40x;
+    background-color: #D9D9D9;
+    margin-bottom: 25px; }
+  .comments__form-button {
+    width: 125px;
+    height: 40x;
+    background-color: #D9D9D9; }
+
+.comments__list {
+  margin-top: 120px; }
+
+.comment__name {
+  font-size: 24px;
+  margin-bottom: 10px; }
+
+.delete-button {
+  width: 25px;
+  height: 25px;
+  margin-bottom: 10px; }
+
+.comment__date {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.like {
+  width: 25px;
+  height: 25px; }
+
+.comment__like {
+  margin-left: 20px; }
+
+/*# sourceMappingURL=styles.css.map */
